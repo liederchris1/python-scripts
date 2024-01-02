@@ -16,7 +16,7 @@ headers = {
 # consider it a 2D array, emails.iloc[row, column]
 # Make sure to change the URL to include the right DC
 
-emails = pd.read_excel("COSM Email Switch.xlsx", "Users")
+emails = pd.read_excel("New Emails.xlsx", "Users")
 
 
 def test():
