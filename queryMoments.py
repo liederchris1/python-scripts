@@ -1,7 +1,7 @@
 # script that utilizes the sys admin moments endpoint to view specific moments for any account
 import requests
 import json
-accountId = '5d08d0b9665dea00017e208e'
+accountId = ''
 accountDomain = 'https://app.gtmhub.com'
 token = ''
 targets = 'account'
