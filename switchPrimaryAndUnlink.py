@@ -128,7 +128,7 @@ def fn():
         userinfo = getPrimarySecondary(clientId)
         switchPrimarySecondary(userinfo)
 
-#clientId = getClientID('gregory.crow@nike.com')
+#clientId = getClientID('')
 # userInfo = getUserAuth0(clientId)
 # unlinkAccountAuth0(userInfo)
 
