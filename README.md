@@ -3,7 +3,7 @@ A repository containing python scripts
 
 switchPrimaryAndUnlink.py
 -
-- There was a situation with an emterprise company setting up multiple accounts, adding users to both accounts and then eventually phasing out one of the accounts
+- There was a situation with an enterprise company setting up multiple accounts, adding users to both accounts and then eventually phasing out one of the accounts
 - This left a large number of users with a primary account that was scheduled for deletion, however they also had an SSO connection, and due to how our primary / secondary logic was set up users couldn't have an SSO connection to a secondary account
 - A simple switch primary / secondary wouldnt work
 - The workaround involved several steps, using both our API as well as our authentication providers (auth0) API
