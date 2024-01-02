@@ -8,7 +8,7 @@ targets = 'account'
 url = accountDomain + '/api/v2/moments/' + accountId + '/?q=targets:' + targets + '&skip='
 headers = {
     'authorization': "Bearer " + token,
-    'gtmhub-accountid': '573dbb12ed915d0005cc2c46',
+    'gtmhub-accountid': '',
     'ContentType': 'application/json'
 
                }
